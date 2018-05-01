@@ -1,0 +1,42 @@
+{
+  "name": "dat-did-resolver",
+  "version": "1.0.0",
+  "description": "DID Method for the DAT Protocol. Resolve a DDO (DID Document) for a DAT.",
+  "main": "index.js",
+  "scripts": {
+    "test": ":"
+  },
+  "keywords": [
+    "did",
+    "ddo",
+    "dat",
+    "method",
+    "resolver",
+    "decentralized",
+    "identity",
+    "document"
+  ],
+  "author": "Joseph Werle <werle@littlstar.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dat-node": "^3.5.8",
+    "debug": "^3.1.0",
+    "defined": "^1.0.0",
+    "did-document": "^0.1.0",
+    "did-resolver": "0.0.4",
+    "did-uri": "^0.2.4",
+    "ld-cryptosuite-registry": "^0.1.3",
+    "lru-cache": "^4.1.2",
+    "pify": "^3.0.0",
+    "random-access-memory": "^3.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlstar/dat-did-resolver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/littlstar/dat-did-resolver/issues"
+  },
+  "homepage": "https://github.com/littlstar/dat-did-resolver#readme"
+}
